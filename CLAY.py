@@ -422,9 +422,9 @@ class Main:
 		os.system("clear")
 		print(logo)
 		
-		print("\033[1;33m     ●▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37mweirdnehal\033[1;33m●▬▬▬▬▬▬▬▬▬▬▬▬●")
-		print("\033[1;37m                  Clowns Laughing At You ")
-		print("\033[1;33m     ●▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37mweirdnehal\033[1;33m●▬▬▬▬▬▬▬▬▬▬▬▬●")
+		
+		print("\033[1;37m              Clowns Laughing At You ")
+		
 		
 		print(" \033[1;39m\033[1;32m [1] SUBSCRIBE THE CHANNEL FOR APPROVED")
 		print(" \033[1;39m\033[1;31m [2] Exit")
@@ -450,7 +450,7 @@ class Main:
 			os.system("clear")
 		print(logo)
 		print(" \033[1;37m[▪]Select Option")
-		print("\033[0;90m \033[1;33m●▬▬▬▬▬▬▬▬▬▬▬●\033[1;37mweirdnehal\033[1;33m●▬▬▬▬▬▬▬▬▬▬▬●")
+		
 		print(" \033[1;39m \033[1;31m【1】 \033[1;36mBest Crack File Cloning\033[0;92m    ")
 		print(" \033[1;39m \033[1;32m【2】 \033[1;34mCrack Public Id's")
 		print(" \033[1;39m \033[1;33m【3】 \033[1;33mFacebook Group help ")
@@ -1308,7 +1308,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 	])
 		sys.stdout.write(
-			"\r [Start]>%s/COUNT>%s -> \033[1;32mOk:-%s - \033[1;37mCp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			"\r [Start]>%s/NEHAL>%s -> \033[1;32mOk:-%s - \033[1;37mCp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
