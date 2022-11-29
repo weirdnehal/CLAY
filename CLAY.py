@@ -422,14 +422,14 @@ class Main:
 		os.system("clear")
 		print(logo)
 		
-		print("\033[1;33m     ●▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[1;33m●▬▬▬▬▬▬▬▬▬▬▬▬●")
-		print("\033[1;37m     MADE IN NEHAL AHMED ")
-		print("\033[1;33m     ●▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[1;33m●▬▬▬▬▬▬▬▬▬▬▬▬●")
+		print("\033[1;33m     ●▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m▬▬▬\033[1;33m●▬▬▬▬▬▬▬▬▬▬▬▬●")
+		print("\033[1;37m     Clowns Laughing At You ")
+		print("\033[1;33m     ●▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m▬▬▬\033[1;33m●▬▬▬▬▬▬▬▬▬▬▬▬●")
 		
-		print(" \033[1;39m━▷\033[1;32m [1] SUBSCRIBE THE CHANNEL FOR APPROVED")
-		print(" \033[1;39m━▷\033[1;31m [2] Exit")
+		print(" \033[1;39m\033[1;32m [1] SUBSCRIBE THE CHANNEL FOR APPROVED")
+		print(" \033[1;39m\033[1;31m [2] Exit")
 		print("")
-		baloch = input("\n\033[1;37m  \033[1;35mChoice \033[1;37m━━> \033[1;32m")
+		baloch = input("\n\033[1;37m  \033[1;35mChoice \033[1;37m: \033[1;32m")
 		if baloch in ["", " "]:
 			exit()
 		elif baloch in ["2", "02"]:
