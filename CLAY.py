@@ -1,5 +1,4 @@
 #DECOMPILE BY Nehal
-#FILE NAME (CHAND-DEC)
 W = '\033[97;1m'
 R = '\033[91;1m'
 G = '\033[92;1m'
@@ -300,7 +299,7 @@ def crack(idf,pwv):
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'
-	sys.stdout.write('\r %s[Count] %s/%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
+	sys.stdout.write('\r %s[NEHAL] %s/%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -339,7 +338,7 @@ def free(idf,pwv):
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'
-	sys.stdout.write('\r %s[ Count] %s/%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
+	sys.stdout.write('\r %s[ NEHAL] %s/%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -384,18 +383,16 @@ def follow(ses,coki):
 
 logo = ("""\033[1;32m
 
+
 \033[1;32m         \033[1;93m ─━learned programming and hacked━─\033[1;32m	
 
-
      
-       ██████╗██╗      █████╗ ██╗   ██╗
-      ██╔════╝██║     ██╔══██╗╚██╗ ██╔╝
-      ██║     ██║     ███████║ ╚████╔╝ 
-      ██║     ██║     ██╔══██║  ╚██╔╝  
-      ╚██████╗███████╗██║  ██║   ██║   
-       ╚═════╝╚══════╝╚═╝  ╚═╝   ╚═╝   
-                                 
-
+         ██████╗██╗      █████╗ ██╗   ██╗
+        ██╔════╝██║     ██╔══██╗╚██╗ ██╔╝
+        ██║     ██║     ███████║ ╚████╔╝ 
+        ██║     ██║     ██╔══██║  ╚██╔╝  
+        ╚██████╗███████╗██║  ██║   ██║   
+         ╚═════╝╚══════╝╚═╝  ╚═╝   ╚═╝   
                                           
                               [weirdnnehal]                                        
  ________________________________________________________\033[1;33m
@@ -426,7 +423,7 @@ class Main:
 		print(logo)
 		
 		print("\033[1;33m     ●▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[1;33m●▬▬▬▬▬▬▬▬▬▬▬▬●")
-		print("\033[1;37m     MADE IN BANGLADESH ")
+		print("\033[1;37m     MADE IN NEHAL AHMED ")
 		print("\033[1;33m     ●▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[1;33m●▬▬▬▬▬▬▬▬▬▬▬▬●")
 		
 		print(" \033[1;39m━▷\033[1;32m [1] SUBSCRIBE THE CHANNEL FOR APPROVED")
@@ -443,7 +440,7 @@ class Main:
 			os.system("xdg-open https://youtube.com/")
 			print("")
 			time.sleep(2.0)
-			print("\033[1;37m    Type Your country")
+			print("\033[1;37m    Type Your Ex Name")
 			print("")
 			input("\n\033[1;32m  Type Name \033[1;34m━━>  \033[1;33m")
 			time.sleep(2.1)
@@ -453,27 +450,27 @@ class Main:
 			os.system("clear")
 		print(logo)
 		print(" \033[1;37m[▪]Select Option")
-		print("\033[0;90m \033[1;33m●▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[1;33m●▬▬▬▬▬▬▬▬▬▬▬●")
-		print(" \033[1;39m━▷ \033[1;31m【1】 \033[1;36mBest Crack File Cloning\033[0;92m   ✓ (Best)")
+		print("\033[0;90m \033[1;33m●▬▬▬▬▬▬▬▬▬▬▬●\033[1;37mweirdnehal\033[1;33m●▬▬▬▬▬▬▬▬▬▬▬●")
+		print(" \033[1;39m━▷ \033[1;31m【1】 \033[1;36mBest Crack File Cloning\033[0;92m    ")
 		print(" \033[1;39m━▷ \033[1;32m【2】 \033[1;34mCrack Public Id's")
 		print(" \033[1;39m━▷ \033[1;33m【3】 \033[1;33mFacebook Group help ")
-		print(" \033[1;39m━▷ \033[1;34m【4】 \033[1;32mOld Cloning Id's 2006-10 \033[0;92m ✓ (Best)")
-		print(" \033[1;39m━▷ \033[1;35m【5】 \033[1;37mOld Cloning Id's 2011-16\033[0;92m  ✓ (Best) ")
+		print(" \033[1;39m━▷ \033[1;34m【4】 \033[1;32mOld Cloning Id's 2006-10 \033[0;92m  [Best]")
+		print(" \033[1;39m━▷ \033[1;35m【5】 \033[1;37mOld Cloning Id's 2011-16\033[0;92m   [Best] ")
 		print(" \033[1;39m━▷ \033[0;91m【E】 Exit \n")
-		MAINUL =input(" \033[1;35mChoice : ")
-		if MAINUL in ["1", "01"]:
-			os.system("xdg-open https://www.facebook.com/profile.php?id=100071095386780&mibextid=ZbWKwL")
+		NEHAL =input(" \033[1;35mChoice : ")
+		if NEHAL in ["1", "01"]:
+			os.system("xdg-open https://www.facebook.com/nehal.ahmed6")
 			File()
-		if MAINUL in ["2", "02"]:
-			os.system("xdg-open https://www.tiktok.com/@alex_editz_zone?_t=8XQq8lgaZzF&_r=1")
+		if NEHAL in ["2", "02"]:
+			os.system("xdg-open https://www.github.com/weirdnehal")
 			Public()
-		if MAINUL in ["3", "03"]:
-			os.system('xdg-open  https://www.facebook.com/profile.php?id=100071095386780&mibextid=ZbWKwL')
-		if MAINUL in ["4", "04"]:
-			os.system("xdg-open https://www.facebook.com/profile.php?id=100071095386780&mibextid=ZbWKwL")
+		if NEHAL in ["3", "03"]:
+			os.system('xdg-open  https://www.instagram.com/weirdnehal')
+		if NEHAL in ["4", "04"]:
+			os.system("xdg-open https://www.linkdin.com/weirdnehal")
 			self.old()
-		if MAINUL in ["5", "05"]:
-			os.system("xdg-open https://www.tiktok.com/@alex_editz_zone?_t=8XQq8lgaZzF&_r=1")
+		if NEHAL in ["5", "05"]:
+			os.system("xdg-open https://www.facebook.com/nehal.ahmed6")
 			self.old2()
 			exit()
 		else:
@@ -485,7 +482,7 @@ class Main:
 		x = 111111111
 		xx = 999999999
 		idx = "100000" 
-		os.system("xdg-open https://www.facebook.com/profile.php?id=100071095386780&mibextid=ZbWKwL");print(logo)
+		os.system("xdg-open https://www.facebook.com/nehal.ahmed6");print(logo)
 		limit = int(input(" \n\033[0;95m[+]\033[0;93m TOTAL IDS TO CRACK LIMIT 50000: "))
 		try:
 			for n in range(limit):
@@ -506,7 +503,7 @@ class Main:
 				print("\n\033[1;32m [+] CRACK HAS BEEN STARTED")
 				print(" \033[1;37m[+] Note: Ok Open 70% JUST NOW")
 				print(" [!] IF NO RESULT USE AIRPLANE MODE ON & OFF 5 SECONDS")
-				print("\033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●")
+				print("\033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37mweirdnehal\033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●")
 				print("\n")
 				print("\033[0;97m")
 				for user in self.id:
@@ -880,7 +877,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 		])
 		sys.stdout.write(
-			"\r [Start]%s> /count>%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			"\r [Start]%s> /NEHAL>%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
